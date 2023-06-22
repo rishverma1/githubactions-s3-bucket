@@ -32,5 +32,13 @@ jobs:
     - name: Run aws script
       run: ./scripts/run.sh
       shell: bash
+
+    - name: Set execute permission for ec2 script
+      run: |
+        chmod +x  ./scripts/ec2.sh
+
+    - name: Run aws ec2 script
+      run: ./scripts/ec2.sh
+      shell: bash
       
       
