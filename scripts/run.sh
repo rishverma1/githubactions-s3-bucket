@@ -1,4 +1,4 @@
 #!/bin/bash
 aws s3api create-bucket \
-    --bucket buxket-creation-yebecbfetcbfdsbt
+    --bucket buxket-creation-rtyusausau
     
